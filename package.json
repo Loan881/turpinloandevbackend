@@ -1,12 +1,12 @@
 {
-  "name": "mon-backend",
+  "name": "turpinloandevbackend",
   "version": "1.0.0",
-  "private": true,
+  "main": "index.js",
   "scripts": {
-    "dev": "vercel dev"
+    "start": "node index.js",
+    "vercel-build": "echo 'Build terminé'"
   },
   "dependencies": {
-    "stripe": "^12.0.0",
-    "micro": "^9.3.4"
+    "express": "^4.18.2"
   }
 }
